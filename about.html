@@ -14,8 +14,8 @@
     <!--[endif]-->
 </head>
 <body>
-       <header class="site-header"> 
-       
+      <div class="container">
+        <header class="site-header"> 
         <div class="container">
              <h1 class="site-title">
                 <a href="index.html">New traveller</a>
@@ -23,11 +23,19 @@
              <h2 class="site-description">
                 Life-love on the travel
              </h2>
-             <nav class="menu">
-                &nbsp;<a class="active" href="index.html">Home</a> &nbsp;     &nbsp;       &nbsp;
-                <a href="about.html">About Us</a> &nbsp;     &nbsp;      &nbsp;
-                <a href="contact.html">Contact</a>
-             </nav>
+             </div>
+             </header>
+             <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                 </ul>
             
             
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -40,7 +48,7 @@
                      <img src="image/img3.jpg" class="d-block w-100" alt="">
                   </div>
                   <div class="carousel-item">
-                  <img src="image/img4.jpg" class="d-block w-100" alt="..." >
+                  <img src="image/img4.jpg" class="d-block w-100" alt="" >
                   </div>
                 </div>
                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -52,38 +60,24 @@
                  <span class="sr-only">Next</span>
                  </a>
             </div>
-        </div>
-    </header>
            
 <main>
    
    <div class="container">
     
     <h1> How to plan a road-trip across countries?</h1>
-    <p>As I write this, I am about two weeks away from my very own cross-country road trip. We will be departing from Pennsylvania, heading for the Grand Canyon, and then to Yosemite, with plenty of adventure in between. As I think about the planning process I’ve gone through the past few weeks, a few key things stand out. Read on for six important things to consider before you embark on your own cross-country road trip. </p>
+    <p>As I write this, I am about two weeks away from my very own cross-country road trip. We will be departing from Pennsylvania, heading for 
+    the Grand Canyon, and then to Yosemite, with plenty of adventure in between. As I think about the planning process I’ve gone through the past few weeks, a few key things stand out. Read on for six important things to consider before you embark on your own cross-country road trip. </p>
     <h2>Choose How Long You Want To Travel</h2>
     <p>Decide how much time you’re willing to commit to your road trip. This will determine how far you’ll be able to travel and how long you can stay at each stop. In my past experience traveling from the East Coast to the West Coast of the United States, two weeks is the bare minimum needed, with three to five weeks being ideal.</p>
     <h2>Map Your Route</h2>
     <p>With your key stops decided, it’s now time to pinpoint those locations on a map and plan your route. You can use a paper map or a computer to do this, but I find that Google Maps works best for me. It’s nice to have an easily changeable visual representation of your course as you work out the stops in between. Don’t be afraid to give yourself a few options. For some it may be overkill, but once I have my main route planned out, I put it in a spreadsheet with estimated times and mileage between stops, then build alternate routes from there. That way, if I encounter any sort of obstacle, or just change my mind, I don’t have to start from scratch.</p>
     
     </div>
-    
-    
-    
-    
-    
-    
+        
 </main>
                     
          
-        
-       
-      
-     
-    
-   
-  
- 
    <footer class="site-footer">
        <div class="container">
            <div class="row">
@@ -120,7 +114,7 @@
                                     <label for="email">Your email</label>
                                     <input type="email" id="email" class="form-control" placeholder="enter email">
                                 </div>
-                                <button type="submit" class="btn btn-small btn-success">Subscribe now</button>
+                                <button type="submit" class="btn btn-primary btn-block">Subscribe now</button>
                             </form>
                       </div>
                   </div>
@@ -135,6 +129,7 @@
       </div>
        
    </footer>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
